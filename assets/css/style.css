@@ -11,3 +11,10 @@ body {
 .input {
     text-align: center;
 }
+
+.recent-search-item {
+    cursor: pointer;
+    background-color: rgb(204, 196, 196);
+    padding: 8px;
+    margin: 10px 0 ;
+}
