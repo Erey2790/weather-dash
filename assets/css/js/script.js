@@ -15,7 +15,7 @@ function getWeatherByCity(e) {
     e.preventDefault()
     var city = cityInput.value
     console.log(city);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3eb18e0a949449fa503ddba9cdea5c69`).then(function (response) {
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=3eb18e0a949449fa503ddba9cdea5c69`).then(function(response) {
         response.json().then(function (data) {
             console.log(data);
             selectedCity = data;

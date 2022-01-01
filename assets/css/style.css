@@ -18,3 +18,17 @@ body {
     padding: 8px;
     margin: 10px 0 ;
 }
+
+.forecast-row {
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+.card {
+    margin: 5px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    
+}
