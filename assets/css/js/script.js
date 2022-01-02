@@ -40,3 +40,7 @@ function addToRecentSearchList(text) {
     node.appendChild(textnode);                              // Append the text to <li>
     recentContainer.appendChild(node);     // Append <li> to <ul> with id="myList"
 }
+
+function displayWeather() {
+    
+}
