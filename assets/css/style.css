@@ -45,3 +45,12 @@ body {
 .btn {
     background: gray;
 }
+
+.container-fluid {
+    background:rgb(204, 196, 196);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    margin: 1em;
+    justify-content: center;
+}
