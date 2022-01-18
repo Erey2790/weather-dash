@@ -39,11 +39,11 @@ var tempDayFiveEl = document.querySelector('#tempDayFive');
 var windDayFiveEl = document.querySelector('#windDayFive');
 var humidityDayFiveEl = document.querySelector('#humidityDayFive');
 
-var iconDayOneEl = document.querySelector('#iconDayOne');
-var iconDayTwoEl = document.querySelector('#iconDayTwo');
-var iconDayThreeEl = document.querySelector('#iconDayThree');
-var iconDayFourEl = document.querySelector('#iconDayFour');
-var iconDayFiveEl = document.querySelector('#iconDayFive');
+var iconDayOneEl = document.querySelector('.iconDayOne');
+var iconDayTwoEl = document.querySelector('.iconDayTwo');
+var iconDayThreeEl = document.querySelector('.iconDayThree');
+var iconDayFourEl = document.querySelector('.iconDayFour');
+var iconDayFiveEl = document.querySelector('.iconDayFive');
 
 
 console.log(recentSearches)
@@ -107,6 +107,10 @@ function oneCall(lat, lon, city) {
                 humidityDayFiveEl.textContent = `Humidity: ${data2.daily[4].humidity} %`;
 
                 iconDayOneEl.setAttribute('src', `http://openweathermap.org/img/wn/${data2.daily[0].weather[0].icon}.png`);
+                iconDayTwoEl.setAttribute('src', `http://openweathermap.org/img/wn/${data2.daily[1].weather[0].icon}.png`);
+                iconDayThreeEl.setAttribute('src', `http://openweathermap.org/img/wn/${data2.daily[2].weather[0].icon}.png`);
+                iconDayFourEl.setAttribute('src', `http://openweathermap.org/img/wn/${data2.daily[3].weather[0].icon}.png`);
+                iconDayFiveEl.setAttribute('src', `http://openweathermap.org/img/wn/${data2.daily[4].weather[0].icon}.png`);
 
 
 
